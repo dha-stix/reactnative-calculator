@@ -135,14 +135,15 @@ export default function App() {
 		}
 	}
   return (
-		<SafeAreaView className='flex-1 items-center'>
+	  <SafeAreaView className='flex-1 items-center'>
+		  
 			<View className='flex-1 w-full bg-blue-50 rounded-xl p-4 mb-4 items-end justify-end'>
 			  <Text className={`${firstNumber.length <= 7 ? "text-8xl" : "text-6xl"}`}>
 				 {display()}
 			  </Text>
 			</View>
 
-			<View className='w-full roundejn d-x py-4'>
+			<View className='w-full rounded-xl py-4'>
 				<View className='flex-row items-center w-full space-x-3 justify-center px-10 mb-2'>
 					<Pressable
 						className='bg-gray-600 py-4   rounded-xl shadow-md w-1/4'
